@@ -17,8 +17,8 @@
     <!-- custom css -->
     <link id="link-id" rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="stylesheet" href="./assets/css/campaign-page-yourpageno.css" />
-    <title>GetViral | Create Campaign-step <!-- Drop Your Content --></title>
+    <link rel="stylesheet" href="./assets/css/campaign-page-one.css" />
+    <title>GetViral | Create Campaign-step 1</title>
   </head>
   <body class="collapse-sidebar">
     <!-- Small screens -->
@@ -408,7 +408,7 @@
               class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center m-0 p-0"
             >
               <h3 class="text_large text_primary m-0 pb-4 pb-sm-0">
-                <!--       Drop Your Content          -->
+                Get Started With Ad Campaign
               </h3>
               <div>
                 <div class="d-flex justify-content-end align-items-center">
@@ -424,14 +424,166 @@
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
                   <span class="text_smaller text_light m-0"
-                    ><!--       Drop Your Content          --></span
-                  ><span class="text_smaller text_light m-0">0%</span>
+                    >Started and Underway </span
+                  ><span class="text_smaller text_light m-0 progress-percent"
+                    >0%</span
+                  >
                 </div>
               </div>
             </div>
             <hr />
           </section>
-          <!--       Drop Your Content          -->
+          <div class="row">
+            <div class="col-12">
+              <!-- Form Start -->
+              <form id="campaign-form" class="campaign-form mb-2 pt-4">
+                <div class="form-group mb-4">
+                  <label for="campaignTitle"
+                    >Campaign Title<span class="required-star">*</span></label
+                  >
+                  <div class="form-desc mb-4">
+                    A short campaign title will help distinguish each of your
+                    Ads and it will also be used in your reports.
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control rounded-01"
+                    id="campaignTitle"
+                    placeholder=""
+                  />
+                </div>
+                <div class="form-group mb-4">
+                  <label for="addCampaignTagline"
+                    >Add Campaign Tagline<span class="required-star"
+                      >*</span
+                    ></label
+                  >
+                  <div class="form-desc mb-4">
+                    The campaign tagline is a catchy subtitle that should
+                    re-empasize your campaign title and resonate further with
+                    advocates.
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control rounded-01"
+                    id="addCampaignTagline"
+                    placeholder=""
+                  />
+                </div>
+                <div class="form-group mb-4">
+                  <label for="describeCampaign">Describe Your Campaign</label>
+                  <div class="form-desc mb-4">
+                    This will explain the purpose and goals of your
+                    advertisement.
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control rounded-01"
+                    id="describeCampaign"
+                    placeholder=""
+                  />
+                </div>
+                <div class="form-group mb-4">
+                  <label for="selectCampaignCategory"
+                    >Select a Campaign Category<span class="required-star"
+                      >*</span
+                    ></label
+                  >
+                  <select
+                    type="text"
+                    class="form-control rounded-01"
+                    id="selectCampaignCategory"
+                    placeholder=""
+                  >
+                    <option value="" selected hidden disabled></option>
+                    <option value="Agriculture">Agriculture</option>
+                    <option value="Shopping">Shopping</option>
+                  </select>
+                </div>
+                <div class="form-row mb-4">
+                  <label class="col-12" for="formDate"
+                    >Timing<span class="required-star">*</span></label
+                  >
+                  <div class="form-desc col-12">
+                    This will explain the purpose and goals of your
+                    advertisement.
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="formDateFrom"></label>
+                    <input
+                      type="date"
+                      class="form-control rounded-01"
+                      id="formDateFrom"
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="formDateTo"></label>
+                    <input
+                      type="date"
+                      class="form-control rounded-01"
+                      id="formDateTo"
+                    />
+                  </div>
+                </div>
+                <div class="form-row mb-4">
+                  <label class="col-12" for="formDate"></label>
+
+                  <div class="form-group col-md-6">
+                    <label for="formValueSelect"
+                      >Campaign Budget<span class="required-star"
+                        >*</span
+                      ></label
+                    >
+
+                    <select
+                      class="form-control rounded-01"
+                      id="formValueSelect"
+                    >
+                      <option value="" selected hidden disabled></option>
+                      <option value="Daily Budget">Daily Budget</option>
+                      <option value="Lifetime Budget">Lifetime Budget</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6 d-flex align-items-end">
+                    <label for="moneySth"></label>
+                    <input
+                      type="number"
+                      class="form-control rounded-01"
+                      placeholder="$0.00"
+                      id="moneySth"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group mb-4">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck"
+                    />
+                    <label class="form-check-label form-desc" for="gridCheck">
+                      Activate once approved or as pertime and day part settings
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group mb-4">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck"
+                    />
+                    <label class="form-check-label form-desc" for="gridCheck">
+                      Manually launch campaign after approval
+                    </label>
+                  </div>
+                </div>
+              </form>
+
+              <!-- Form Ending -->
+            </div>
+          </div>
           <hr />
           <div
             id="page-navigation"
@@ -443,6 +595,7 @@
               Back
             </button>
             <button
+              id="submit-campaign-form"
               class="text_large py-2 py-md-3 px-4 px-md-5 text-white bg_secondary page-navigation-btn form-btn-next"
             >
               Next
@@ -480,6 +633,6 @@
     <script src="./assets/js/popper.js"></script>
     <!-- custom js -->
     <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/campaign-page-yourpageno.js"></script>
+    <script src="./assets/js/campaign-page-one.js"></script>
   </body>
 </html>
