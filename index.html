@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -167,12 +167,12 @@
     <aside
       class="sidebar position-fixed h-100 position-relative d-none d-md-block"
     >
-        <a class="navbar-brand" href="#"
-          ><img
-            class="img-fluid aside-logo logo mt-xl"
-            src="./assets/images/GetViral.svg"
-            alt=""
-        /></a>
+      <a class="navbar-brand" href="#"
+        ><img
+          class="img-fluid aside-logo logo mt-xl"
+          src="./assets/images/GetViral.svg"
+          alt=""
+      /></a>
       <ul class="sidebar__lists list-unstyled">
         <li class="py-2 py-xl-3 my-3 d-flex align-items-center">
           <span class="sidebar__icon pr-3"
@@ -324,7 +324,7 @@
                       />
                     </svg>
                   </button>
-          
+
                   <!-- Close button -->
                   <button
                     class="hamburger-button d-none d-md-block"
@@ -437,21 +437,6 @@
               <!-- Form Start -->
               <form id="campaign-form" class="campaign-form mb-2 pt-4">
                 <div class="form-group mb-4">
-                  <label for="campaignTitle"
-                    >Campaign Title<span class="required-star">*</span></label
-                  >
-                  <div class="form-desc mb-4">
-                    A short campaign title will help distinguish each of your
-                    Ads and it will also be used in your reports.
-                  </div>
-                  <input
-                    type="text"
-                    class="form-control rounded-01"
-                    id="campaignTitle"
-                    placeholder=""
-                  />
-                </div>
-                <div class="form-group mb-4">
                   <label for="addCampaignTagline"
                     >Add Campaign Tagline<span class="required-star"
                       >*</span
@@ -495,87 +480,72 @@
                     placeholder=""
                   >
                     <option value="" selected hidden disabled></option>
-                    <option value="Agriculture">Agriculture</option>
-                    <option value="Shopping">Shopping</option>
+                    <option value="Youtube Subscribers"
+                      >Youtube Subscribers</option
+                    >
+                    <option value="Facebook Like">Facebook Like</option>
                   </select>
                 </div>
-                <div class="form-row mb-4">
-                  <label class="col-12" for="formDate"
-                    >Timing<span class="required-star">*</span></label
+                <div class="form-group mb-4">
+                  <label for="campaignTitle"
+                    >Social Media Username<span class="required-star"
+                      >*</span
+                    ></label
                   >
-                  <div class="form-desc col-12">
-                    This will explain the purpose and goals of your
-                    advertisement.
+                  <div class="form-desc mb-4">
+                    The username of the account you're trying to promote from
                   </div>
-                  <div class="form-group col-md-6">
-                    <label for="formDateFrom"></label>
-                    <input
-                      type="date"
-                      class="form-control rounded-01"
-                      id="formDateFrom"
-                    />
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="formDateTo"></label>
-                    <input
-                      type="date"
-                      class="form-control rounded-01"
-                      id="formDateTo"
-                    />
-                  </div>
+                  <input
+                    type="text"
+                    class="form-control rounded-01"
+                    id="campaignTitle"
+                    placeholder=""
+                  />
                 </div>
+                <div class="form-group mb-4">
+                  <label for="campaignTitle"
+                    >Social media profile/page link<span class="required-star"
+                      >*</span
+                    ></label
+                  >
+                  <div class="form-desc mb-4">
+                    A link to the content/page you're trying to promote
+                  </div>
+                  <input
+                    type="url"
+                    class="form-control rounded-01"
+                    id="campaignTitle"
+                    placeholder=""
+                  />
+                </div>
+
                 <div class="form-row mb-4">
-                  <label class="col-12" for="formDate"></label>
+                  <!-- <label class="col-12" for="formDate"></label> -->
 
                   <div class="form-group col-md-6">
-                    <label for="formValueSelect"
-                      >Campaign Budget<span class="required-star"
-                        >*</span
-                      ></label
+                    <label for="campaignTypeSelect"
+                      >Campaign Type<span class="required-star">*</span></label
                     >
 
                     <select
                       class="form-control rounded-01"
-                      id="formValueSelect"
+                      id="campaignTypeSelect"
                     >
                       <option value="" selected hidden disabled></option>
-                      <option value="Daily Budget">Daily Budget</option>
-                      <option value="Lifetime Budget">Lifetime Budget</option>
+                      <option value="Public Campaign">Public Campaign</option>
+                      <option value="Private Campaign">Private Campaign</option>
                     </select>
                   </div>
-                  <div class="form-group col-md-6 d-flex align-items-end">
-                    <label for="moneySth"></label>
+                  <div class="form-group col-md-6">
+                    <label for="quantityField"
+                      >Quantity<span class="required-star">*</span></label
+                    >
                     <input
                       type="number"
                       class="form-control rounded-01"
-                      placeholder="$0.00"
-                      id="moneySth"
+                      placeholder=""
+                      id="quantityField"
                     />
-                  </div>
-                </div>
-
-                <div class="form-group mb-4">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      id="gridCheck"
-                    />
-                    <label class="form-check-label form-desc" for="gridCheck">
-                      Activate once approved or as pertime and day part settings
-                    </label>
-                  </div>
-                </div>
-                <div class="form-group mb-4">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      id="gridCheck"
-                    />
-                    <label class="form-check-label form-desc" for="gridCheck">
-                      Manually launch campaign after approval
-                    </label>
                   </div>
                 </div>
               </form>
